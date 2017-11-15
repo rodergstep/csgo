@@ -56,7 +56,7 @@
             </div>
             <div class="topbar__buttons"> <a href="#" role="button" class="btn btn--transparent" id="btnToggleStats"><span>Your Stats</span>
 <svg class="icon icon-chevron-down"><use xlink:href="img/sprite.svg#icon-chevron-down"></use></svg>
-</a> <a href="#modal-history" role="button" class="btn btn--transparent popup-with-zoom-anim my-mfp-zoom-in ">View History</a> <a href="#" role="button" class="btn btn--green">Create Game</a>
+</a> <a href="#modal-history" role="button" class="btn btn--transmodal-viewparent popup-with-zoom-anim my-mfp-zoom-in  popup-with-zoom-anim my-mfp-zoom-in">View History</a> <a href="#modal-create-game" role="button" class="btn btn--green popup-with-zoom-anim my-mfp-zoom-in">Create Game</a>
               <!-- popup stats -->
               <div class="popup-stats">
                 <div class="stats-inner">
@@ -109,7 +109,7 @@
                   </td>
                   <td> <span class="status-open">OPEN</span></td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
                 <!-- new row -->
@@ -146,7 +146,7 @@
                     </div>
                   </td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
                 <!-- new row -->
@@ -184,7 +184,7 @@
                     </div>
                   </td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
                 <!-- new row -->
@@ -211,7 +211,7 @@
                   </td>
                   <td> <span class="status-open">OPEN</span></td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
                 <!-- new row -->
@@ -238,7 +238,7 @@
                   </td>
                   <td> <span class="status-open">OPEN</span></td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
                 <!-- new row -->
@@ -265,7 +265,7 @@
                   </td>
                   <td> <span class="status-open">OPEN</span></td>
                   <td>
-                    <div class="ceil__action"> <a href="#" role="button" class="btn btn--rose">Join</a> <a href="#" role="button" class="btn btn--purple">View</a> </div>
+                    <div class="ceil__action"> <a href="#modal-join" role="button" class="btn btn--rose popup-with-zoom-anim my-mfp-zoom-in">Join</a> <a href="#modal-view" role="button" class="btn btn--purple popup-with-zoom-anim my-mfp-zoom-in">View</a> </div>
                   </td>
                 </tr>
               </tbody>
@@ -533,18 +533,38 @@
       </div>
       <!--end set-url popup-->
       <!-- start join popup-->
-      <div id="modal-set-url" class="zoom-anim-dialog mfp-hide modal-popup">
-        <h3 class="modal__title">Setting your Trade URL</h3>
+      <div id="modal-join" class="zoom-anim-dialog mfp-hide modal-popup">
+        <h3 class="modal__title">Hash: 8743b52063cd84097a65d1633f5c74f5</h3>
       </div>
       <!--end join popup-->
-      <!-- start game popup-->
-      <div id="modal-set-url" class="zoom-anim-dialog mfp-hide modal-popup">
-        <h3 class="modal__title">Setting your Trade URL</h3>
+      <!-- start view popup-->
+      <div id="modal-view" class="zoom-anim-dialog mfp-hide modal-popup">
+        <h3 class="modal__title">Hash: 8743b52063cd84097a65d1633f5c74f5</h3>
+        <div class="game">
+          <div class="game__players">
+            <!-- player1 -->
+            <div class="game__player game__player1">
+              <h4 class="game__player-name">NumLock457</h4>
+              <div class="game__player-photo"> <img src="img/game__player1.jpg" alt="Player"> <span class="game__coin game__coin1"><img src="img/game__coin1.png" alt="Coin"></span> </div>
+              <p class="game__value"> <span>Value:</span> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
+              <div class="game__stats"> <span class="game__items">10 Items</span> <span class="game__percent">51.32%</span> </div>
+            </div>
+            <!-- sign vs -->
+            <div class="game__sign-vs"> <img src="img/game__vs.png" alt="versus sign"> </div>
+            <!-- player2 -->
+            <div class="game__player game__player2">
+              <h4 class="game__player-name">P4USEBRE4K </h4>
+              <div class="game__player-photo"> <img src="img/game__player2.jpg" alt="Player"> <span class="game__coin game__coin2"><img src="img/game__coin2.png" alt="Coin"></span> </div>
+              <p class="game__value"> <span>Value:</span> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
+              <div class="game__stats"> <span class="game__items">48.62% 	                  </span> <span class="game__percent">5 Items</span> </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--end game popup-->
+      <!--end view popup-->
       <!-- start create-game popup-->
-      <div id="modal-set-url" class="zoom-anim-dialog mfp-hide modal-popup">
-        <h3 class="modal__title">Setting your Trade URL</h3>
+      <div id="modal-create-game" class="zoom-anim-dialog mfp-hide modal-popup">
+        <h3 class="modal__title">Create a Coinflip Game </h3>
       </div>
       <!--end create-game popup-->
     </div>
