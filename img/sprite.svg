@@ -5,6 +5,11 @@
     </defs><symbol id="icon-amount" viewBox="0 0 24 24">
     
     <path class="cls-1" d="M12 24a12 12 0 1 1 12-12 12 12 0 0 1-12 12zm-.085-21.936a10.112 10.112 0 0 0-3.857 19.347l3.929-8.053H5.623zM17.031 3.3l-2.8 4.737h6.2l-11.5 13.715a10.115 10.115 0 0 0 8.1-18.452z"/>
+</symbol><symbol id="icon-check" viewBox="0 0 24 24">
+    <title>
+        check
+    </title>
+    <path d="M20.7 5.3c-.4-.4-1-.4-1.4 0L9 15.6l-4.3-4.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l5 5c.2.2.4.3.7.3s.5-.1.7-.3l11-11c.4-.4.4-1 0-1.4z"/>
 </symbol><symbol id="icon-chevron-down" viewBox="0 0 24 24">
     <title>
         chevron-down
