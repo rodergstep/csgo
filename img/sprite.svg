@@ -20,6 +20,11 @@
         chevron-up
     </title>
     <path d="M18.7 14.3l-6-6c-.4-.4-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4s1 .4 1.4 0l5.3-5.3 5.3 5.3c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4z"/>
+</symbol><symbol id="icon-close" viewBox="0 0 24 24">
+    <title>
+        close
+    </title>
+    <path d="M18.984 6.422L13.406 12l5.578 5.578-1.406 1.406L12 13.406l-5.578 5.578-1.406-1.406L10.594 12 5.016 6.422l1.406-1.406L12 10.594l5.578-5.578z"/>
 </symbol><symbol id="icon-facebook" viewBox="0 0 32 32">
     <title>
         facebook
