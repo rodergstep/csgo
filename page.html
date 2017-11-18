@@ -841,8 +841,8 @@
       </div>
       <!--end set-url popup-->
       <!-- start join popup-->
-      <div id="modal-join" class="zoom-anim-dialog mfp-hide modal-popup">
-        <h3 class="modal__title">Hash: 8743b52063cd84097a65d1633f5c74f5</h3>
+      <div id="modal-join" class="game-modal zoom-anim-dialog mfp-hide modal-popup">
+        <h3 class="modal__title">Cool Coinflip Game</h3>
         <div class="game">
           <div class="game__players">
             <!-- player1 -->
@@ -905,102 +905,104 @@
       </div>
       <!--end join popup-->
       <!-- start view popup-->
-      <div id="modal-view" class="zoom-anim-dialog mfp-hide modal-popup">
-        <h3 class="modal__title">Hash: 8743b52063cd84097a65d1633f5c74f5</h3>
+      <div id="modal-view" class="game-modal zoom-anim-dialog mfp-hide modal-popup">
+        <h3 class="modal__title">Cool Coinflip Game</h3>
         <div class="game">
-          <div class="game__players">
-            <!-- player1 -->
-            <div class="game__player game__player1">
-              <h4 class="game__player-name">NumLock457</h4>
-              <div class="game__player-photo"> <img src="img/game__player1.jpg" alt="Player"> <span class="game__coin game__coin1"><img src="img/game__coin1.png" alt="Coin"></span> </div>
-              <p class="game__value"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
-              <div class="game__stats"> <span class="game__items">10 Items</span> <span class="game__percent">51.32%</span> </div>
-            </div>
-            <!-- sign vs -->
-            <div class="game__sign-vs"> <img src="img/game__vs.png" alt="versus sign"> </div>
-            <!-- player2 -->
-            <div class="game__player game__player2">
-              <h4 class="game__player-name">P4USEBRE4K </h4>
-              <div class="game__player-photo"> <img src="img/game__player2.jpg" alt="Player"> <span class="game__coin game__coin2"><img src="img/game__coin2.png" alt="Coin"></span> </div>
-              <p class="game__value"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
-              <div class="game__stats"> <span class="game__items">48.62% 	                  </span> <span class="game__percent">5 Items</span> </div>
+          <div class="game__players-wrap">
+            <div class="game__players">
+              <!-- player1 -->
+              <div class="game__player game__player1">
+                <div class="game__player-photo"> <img src="img/game__player1.jpg" alt="Player"> </div>
+                <h4 class="game__player-name"> <span class="game__coin game__coin1"><img src="img/game__coin1.png" alt="Coin"></span> <span>NumLock457</span> </h4>
+              </div>
+              <!-- sign vs -->
+              <div class="game__sign-vs"> <img src="img/game__vs.png" alt="versus sign"> </div>
+              <!-- player2 -->
+              <div class="game__player game__player2">
+                <div class="game__player-photo"> <img src="img/game__player2.jpg" alt="Player"> </div>
+                <h4 class="game__player-name"> <span class="game__coin game__coin2"><img src="img/game__coin2.png" alt="Coin"></span> <span>P4USEBRE4K</span> </h4>
+              </div>
             </div>
           </div>
           <!-- game weapons -->
           <div class="game__weapons">
-            <div class="game__weapon1 scroll-y">
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
-                </div>
+            <div class="game__weapons-col">
+              <div class="weapons__info">
+                <p class="game__value"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
+                <div class="game__stats"> <span class="game__items">10 Items</span> <span>–</span> <span class="game__percent">51.32%</span> </div>
               </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+              <div class="game__weapon1 scroll-y">
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
-              </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
-              </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
+                </div>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
               </div>
             </div>
-            <div class="game__weapon2 scroll-y">
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
-                </div>
+            <div class="game__weapons-col">
+              <div class="weapons__info">
+                <p class="game__value"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span> </p>
+                <div class="game__stats"> <span class="game__items">48.62% 	                  </span> <span>–</span> <span class="game__percent">5 Items</span> </div>
               </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+              <div class="game__weapon2 scroll-y">
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
-              </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
-              </div>
-              <!-- new item -->
-              <div class="weapons__item">
-                <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
-                <div class="weapons__desc">
-                  <p class="weapons__desc-title">AWP | Dragon Lore</p>
-                  <p>Factory New</p>
-                  <p class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></p>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
+                </div>
+                <!-- new item -->
+                <div class="weapons__item">
+                  <div class="weapons__photo"> <img src="img/game__weapon.png" alt="Gun"> </div>
+                  <div class="weapons__desc">
+                    <p class="weapons__desc-title"> <span>AWP | Dragon Lore</span> <span class="weapons__desc-factory">Factory New</span> </p>
+                  </div>
+                  <div class="weapons__price"> <svg class="icon icon-amount"><use xlink:href="img/sprite.svg#icon-amount"></use></svg> <span>105.39</span></div>
                 </div>
               </div>
             </div>
